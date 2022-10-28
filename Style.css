@@ -1,0 +1,82 @@
+
+h1{
+    color:blue;
+    font-size: 38px;
+}
+img{
+    width :30%;
+}
+#header-img{
+    width:30%;
+    padding-left:20%;
+    border: 2px red dotted;
+    margin:20px 20px 20px 20px;
+    
+}
+.profile-photo{
+    width:100%;
+   
+}
+a{
+    color:green;
+}
+h1,p,h2{
+    color: black;
+}
+p.textt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+nav#navbar > ul{
+list-style: none;
+
+}
+nav#navbar a{
+text-decoration:none;    
+}
+img#header-img:hover{
+    width:50%;
+    transition: width 1s;
+}
+#char-table tr:nth-child(even){
+background-color: #E0144C;
+}
+#char-table tr:nth-child(odd){
+    background-color:#7DE5ED;
+    }
+#char-table{
+    border-inline-color:black;
+    border-radius: 0.7%;
+}
+
+
+body{
+    margin :0 20%;
+    border: 1px pink;
+    background-image: url(701614.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    background-size:100% 100%;
+}
+section,header,footer {
+    background-color: white;
+    padding: 5%;
+
+}
+#navbar li{
+    display: inline-block;
+    background-color: #E0144C;
+    padding:3%;
+    border-right: 3px black solid;
+    float: right;
+}
+#navbar a{
+    color: white;
+}
+#navbar ul{
+    padding: 0;
+    margin: 0;
+
+}
+footer {
+padding-left: 33%;
+}
