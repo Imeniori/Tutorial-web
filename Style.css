@@ -66,7 +66,7 @@ section,header,footer {
     display: inline-block;
     background-color: #E0144C;
     padding:3%;
-    border-right: 3px black solid;
+    border-right: 3px grey solid;
     float: right;
 }
 #navbar a{
